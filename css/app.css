@@ -64,7 +64,7 @@ h3 {
     background-color: var(--bs-green) !important;
 }
 
-.bg-primary {
+.bg-primary, .btn-primary {
     background-color: var(--bs-blue) !important;
 }
 
@@ -101,4 +101,17 @@ h3 {
 .categoria img:hover{
     transform: scale(1.2);
 
+}
+
+.galeria li{
+    margin-bottom: 1rem;
+}
+
+.galeria li:last-of-type{
+    margin-bottom: 0;
+}
+
+.form-control{
+    padding: 1rem;
+    font-size: 1.6rem;
 }
